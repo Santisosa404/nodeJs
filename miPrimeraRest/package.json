@@ -1,0 +1,32 @@
+{
+  "name": "miprimerarest",
+  "version": "1.0.0",
+  "description": "Mi primera Rest por Santiago Sosa Diaz",
+  "main": "src/index.js",
+  "scripts": {
+    "test": " NODE_ENV=test mocha --require babel-core/register --timeout 10000 test/",
+    "start": "node --require 'babel-register' src/index.js",
+    "watch": "nodemon"
+  },
+  "author": "Santiago Sosa Díaz",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jwt-simple": "^0.5.6",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/node": "^7.12.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "supertest": "^6.0.1"
+  }
+}
