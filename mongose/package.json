@@ -1,0 +1,14 @@
+{
+  "name": "mongoose",
+  "version": "1.0.0",
+  "description": "Primera prueba con Mongose",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago Sosa Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.11.10"
+  }
+}
