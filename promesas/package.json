@@ -1,0 +1,14 @@
+{
+  "name": "promesas",
+  "version": "1.0.0",
+  "description": "Codigo de Ejemplo gracias a MitoCode",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Santiago Sosa Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  }
+}
